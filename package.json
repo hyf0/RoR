@@ -1,0 +1,39 @@
+{
+  "name": "ror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.0.0",
+  "scripts": {
+    "dev": "rspack serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json}": "prettier --write --ignore-unknown"
+  },
+  "engines": {
+    "pnpm": ">=8.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.1.7",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "open": "^9.1.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.2.4",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.4"
+  }
+}
