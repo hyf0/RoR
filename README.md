@@ -15,4 +15,4 @@ Opinionated 🦀Rspack+ ⚛️React Starter Template
 
 ---
 
-The project is deeply inspired [vitesse](https://github.com/antfu/vitesse) by [antfu](https://github.com/antfu). If you are looking for a Vue starter, vitesse would be a good choice.
+The project is deeply inspired by [vitesse](https://github.com/antfu/vitesse) from [antfu](https://github.com/antfu). If you are looking for a Vue starter, vitesse would be a good choice.
