@@ -13,7 +13,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json}": "prettier --write --ignore-unknown"
+    "*.{js,jsx,ts,tsx,json,md}": "prettier --write --ignore-unknown"
   },
   "engines": {
     "pnpm": ">=8.0.0"
