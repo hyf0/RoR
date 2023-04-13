@@ -1,5 +1,7 @@
 import { FC } from 'react'
 
-const App: FC = () => <div>hello, world</div>
+const App: FC = () => {
+  return <div>hello, world</div>
+}
 
 export default App

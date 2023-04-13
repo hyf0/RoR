@@ -11,6 +11,11 @@ Opinionated 🦀Rspack+ ⚛️React Starter Template
 - [ ] I18n
 - [ ] PWA
 
+## Coding Style
+
+- [prettier](https://github.com/prettier/prettier)
+- [eslint](https://github.com/prettier/prettier) with minimum rules to ensure correctness
+
 ## Testing
 
 - [Vitest](https://github.com/vitest-dev/vitest)
