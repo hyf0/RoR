@@ -10,7 +10,7 @@ Opinionated 🦀Rspack+ ⚛️React Starter Template
 ## Dev tools
 
 - [TypeScript](https://www.typescriptlang.org/)
-- WIP[Vitest](https://github.com/vitest-dev/vitest)
+- [Vitest](https://github.com/vitest-dev/vitest)
 - [pnpm](https://pnpm.js.org/)
 
 ---

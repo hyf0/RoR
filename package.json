@@ -9,7 +9,8 @@
   "packageManager": "pnpm@8.0.0",
   "scripts": {
     "dev": "rspack serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest --run",
+    "test:update": "vitest --run --update",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -23,17 +24,20 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@rspack/cli": "^0.1.7",
+    "@rspack/cli": "0.1.7",
+    "@testing-library/react": "^14.0.0",
     "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
     "autoprefixer": "^10.4.14",
     "husky": "^8.0.3",
+    "jsdom": "^21.1.1",
     "lint-staged": "^13.2.1",
     "open": "^9.1.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.2.4",
     "prettier": "^2.8.7",
     "tailwindcss": "^3.3.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
   }
 }
