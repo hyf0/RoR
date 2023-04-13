@@ -5,12 +5,18 @@ Opinionated 🦀Rspack+ ⚛️React Starter Template
 # Tech stack
 
 - 🦀[Rspack](https://github.com/web-infra-dev/rspack)
+- ⚛️[React](https://github.com/facebook/react)
+- 💪[TypeScript](https://github.com/microsoft/TypeScript)
 - 🍭[TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
+- [ ] I18n
+- [ ] PWA
+
+## Testing
+
+- [Vitest](https://github.com/vitest-dev/vitest)
 
 ## Dev tools
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vitest](https://github.com/vitest-dev/vitest)
 - [pnpm](https://pnpm.js.org/)
 
 ---
