@@ -14,6 +14,16 @@ export default {
     filename: '[name]-[hash:8][ext]',
   },
   entry: './src/main',
+  builtins: {
+    define: {
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    },
+    html: [
+      {
+        template: './index.html',
+      },
+    ],
+  },
   module: {
     rules: [
       {
@@ -32,13 +42,6 @@ export default {
           },
         ],
         type: 'css',
-      },
-    ],
-  },
-  builtins: {
-    html: [
-      {
-        template: './index.html',
       },
     ],
   },
