@@ -1,6 +1,6 @@
 # RoR
 
-Opinionated 🦀Rspack+ ⚛️React Starter Template
+Opinionated 🦀Rspack + ⚛️React Starter Template
 
 # Tech stack
 
