@@ -8,7 +8,8 @@
   "license": "ISC",
   "packageManager": "pnpm@8.0.0",
   "scripts": {
-    "dev": "rspack serve",
+    "dev": "NODE_ENV=development rspack serve",
+    "build": "NODE_ENV=production rspack build",
     "test": "vitest --run",
     "test:update": "vitest --run --update",
     "prepare": "husky install"
