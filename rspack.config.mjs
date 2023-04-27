@@ -21,14 +21,8 @@ const config = {
     newSplitChunks: true,
   },
   optimization: {
-    runtimeChunk: 'single',
     splitChunks: {
-      cacheGroups: {
-        app: {
-          chunks: 'all',
-          test: /App\.tsx/,
-        },
-      },
+      chunks: 'all',
     },
   },
   builtins: {
