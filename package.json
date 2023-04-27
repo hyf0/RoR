@@ -13,6 +13,7 @@
     "build:dev:": "NODE_ENV=development rspack build",
     "test": "vitest --run",
     "test:update": "vitest --run --update",
+    "typecheck": "tsc --noEmit",
     "prepare": "husky install"
   },
   "lint-staged": {

@@ -26,5 +26,5 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Rspack"]
+  "cSpell.words": ["Rspack", "typecheck"]
 }
