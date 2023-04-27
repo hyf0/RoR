@@ -15,7 +15,7 @@ const config = {
     clean: true,
     filename: '[name]-[hash:8][ext]',
     // Rspack has the same HMR issue as https://github.com/webpack-contrib/mini-css-extract-plugin/issues/444
-    cssChunkFilename: isDev ? '[name][ext]' : undefined,
+    cssFilename: isDev ? '[name][ext]' : undefined,
   },
   experiments: {
     newSplitChunks: true,
@@ -23,6 +23,12 @@ const config = {
   optimization: {
     splitChunks: {
       chunks: 'all',
+      cacheGroups: {
+        reacts: {
+          test: /[\\/](react|react-dom)[\\/]/,
+          priority: 0,
+        },
+      },
     },
   },
   builtins: {
