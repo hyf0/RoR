@@ -1,8 +1,18 @@
+import path from 'node:path'
+import url from 'node:url'
+
 const isProd = process.env.NODE_ENV === 'production'
 const isDev = process.env.NODE_ENV === 'development'
 
 if (!isProd && !isDev) {
   throw new Error(`Unknown env ${process.env.NODE_ENV}`)
+}
+
+const root = path.dirname(path.resolve(url.fileURLToPath(import.meta.url)))
+
+const paths = {
+  root,
+  output: path.join(root, './dist'),
 }
 
 /**
@@ -13,9 +23,10 @@ const config = {
   entry: './src/main',
   output: {
     clean: true,
-    filename: '[name]-[hash:8][ext]',
+    path: paths.output,
+    filename: './assets/[name]-[hash:8][ext]',
     // Rspack has the same HMR issue as https://github.com/webpack-contrib/mini-css-extract-plugin/issues/444
-    cssFilename: isDev ? '[name][ext]' : undefined,
+    cssFilename: `./styles/[name]${isProd ? '-[hash:8]' : ''}[ext]`,
   },
   experiments: {
     newSplitChunks: true,
