@@ -1,3 +1,5 @@
+# Depreacted: RoR is not a starter template anymore.
+
 # RoR
 
 Opinionated 🦀Rspack + ⚛️React Starter Template
